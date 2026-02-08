@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Vidéo en fond */
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Centrage */
+.overlay {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Bulle centrale */
+.card {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px 50px;
+  border-radius: 25px;
+  text-align: center;
+  color: white;
+  max-width: 420px;
+}
+
+/* Bouton */
+.card a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #5865F2;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+.card a:hover {
+  transform: scale(1.05);
+}
